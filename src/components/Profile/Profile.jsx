@@ -1,18 +1,14 @@
-import MyPosts from './My Posts/MyPosts';
 import classes from './Profile.module.css';
+import MyPosts from './My Posts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
-  
-  return ( <div>
-    <div>
-      <img src='https://img.icons8.com/?size=100&id=Agzas5p4QLD6&format=png&color=F25081' />
+  return (
+    <div >
+      <ProfileInfo />
+      <MyPosts />
     </div>
-    <div>
-      ava
-    </div>
-    <MyPosts />
-  </div>
   )
 }
 
-export default Profile
+export default Profile;

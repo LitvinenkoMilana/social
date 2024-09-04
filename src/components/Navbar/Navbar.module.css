@@ -1,12 +1,16 @@
 .nav {
   grid-area: n;
   background-color: #d3b1b1;
+  padding: 20px;
 }
 
 .item {
+  /* базовые стили для всех элементов */
   color: rgb(227, 227, 227);
+  text-decoration: none;
 }
 
-.item.active {
+.active { 
+  /* стили для активного элемента */
   color: rgb(185, 255, 56);
 }

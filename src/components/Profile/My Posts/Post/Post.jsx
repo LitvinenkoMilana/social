@@ -9,7 +9,7 @@ const Post = ({message, name}) => {
         <p>{name}</p>
       <div>
         <span>like</span>
-        <p>post вишенки собаки</p>
+        <p>вишенки собаки</p>
       </div>
     </div>
 
