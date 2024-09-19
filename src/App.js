@@ -9,7 +9,7 @@ import { addPost } from './redax/state';
 function App(props) {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
       <div className='app-wrapper'>
         <Header />
         <Navbar />
